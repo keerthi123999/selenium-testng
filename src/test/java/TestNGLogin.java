@@ -39,7 +39,7 @@ public class TestNGLogin {
 
         // then by entering the password
         System.out.println("Entering password");
-        driver.findElementByName("password").sendKeys("test123");
+        driver.findElementByName("password").sendKeys("te123");
 
         // then by clicking the login button
         System.out.println("Logging in");
