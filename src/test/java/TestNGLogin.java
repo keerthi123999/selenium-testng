@@ -37,13 +37,7 @@ public class TestNGLogin {
 
 		driver.findElementByName("username").sendKeys("tester@crossbrowsertesting.com");
 
-        // then by entering the password
-        System.out.println("Entering password");
-        driver.findElementByName("password").sendKeys("te123");
-
-        // then by clicking the login button
-        System.out.println("Logging in");
-        driver.findElementByCssSelector("div.form-actions > button").click();
+       );
 
         // let's wait here to ensure the page has loaded completely
         WebDriverWait wait = new WebDriverWait(driver, 10);
